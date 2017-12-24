@@ -4,8 +4,8 @@ var webpackConfig = {
   // Intentionally an array: https://github.com/webpack/webpack/issues/300
   entry: [ './src/index.js' ],
   output: {
-    path: './',
-    filename: 'index.js',
+    path: '../layercake_resources/public/src/',
+    filename: 'layercake.min.js',
     library: nodeConfig.name,
     libraryTarget: "umd",
     umdNamedDefine: true

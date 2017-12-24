@@ -1,12 +1,3 @@
-/**
- * Example v1.0.0
- *
- * Description 
- *
- * @example
- * // Usage example here
- */
+import Core from './core';
 
-import Example from './example.js';
-
-module.exports = new Example();
+const core = new Core();
